@@ -1,8 +1,8 @@
-package com.guoyafa.autotest3.cstusercontroller;
+package com.guoyafa.autotest3.testCase.cstusercontroller;
 
 import com.alibaba.fastjson.JSON;
-import com.guoyafa.autotest3.signUp.SignUpReq;
-import com.guoyafa.autotest3.signUp.SignUpResp;
+import com.guoyafa.autotest3.bean.user.signUp.SignUpReq;
+import com.guoyafa.autotest3.bean.user.signUp.SignUpResp;
 import com.guoyafa.autotest3.tools.HttpTools;
 import org.testng.Assert;
 import org.testng.annotations.Test;

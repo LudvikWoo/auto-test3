@@ -1,4 +1,4 @@
-package com.guoyafa.autotest3.signUp;
+package com.guoyafa.autotest3.bean.user.signUp;
 
 public class SignUpResp {
   private RespBase respBase;
