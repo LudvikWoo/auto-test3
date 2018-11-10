@@ -12,10 +12,10 @@ public class SignUpTest {
   @Test
   public void signUp(){
     SignUpReq signUpReq=new SignUpReq();
-    signUpReq.setPhone("18616765843");
+    signUpReq.setPhone("18616765849");
     signUpReq.setPwd("wl123456");
     signUpReq.setRePwd("wl123456");
-    signUpReq.setUserName("wuling2022");
+    signUpReq.setUserName("wuling2023");
 
     String reqJson= JSON.toJSONString(signUpReq,true);
     System.out.println("---------------------注册接口：请求报文-------------------");
