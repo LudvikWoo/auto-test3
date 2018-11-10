@@ -18,7 +18,7 @@ public class SignUpTest {
     signUpReq.setUserName("wuling2023");
 
     String reqJson= JSON.toJSONString(signUpReq,true);
-    System.out.println("---------------------注册接口：请求报文-------------------");
+    System.out.println("--------------------注册接口：请求报文-------------------");
     System.out.println(reqJson);
 
     String url="http://qa.guoyasoft.com:8080/user/signup";
